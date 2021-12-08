@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"nftStakingReward.sol": "Context"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"nftStakingReward.sol": {
+			"keccak256": "0x3ad88ac56c50d69b92b768daa783dc02ac7190ec2a08a2e8d0d6691d4f61e62b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ab2f229c3325937b83ce4b71090c2448af72ee2d4ab364780617f6aab2c76724",
+				"dweb:/ipfs/QmVFnpxWL9UawHMf5iDbwbMZGKXz2YFfLXzEBBz179QV4D"
+			]
+		}
+	},
+	"version": 1
+}

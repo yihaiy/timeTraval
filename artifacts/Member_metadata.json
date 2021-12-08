@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contractOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "manager",
+				"outputs": [
+					{
+						"internalType": "contract Manager",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "setManager",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Member.sol": "Member"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ContractOwner.sol": {
+			"keccak256": "0xe9ac69ab557c1d0d53efd31bd0a74ce53b6bd2045d797de52f0c3d259b471eae",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://71ed6d2fdd132785144efd97ebf2e6e696b92b98b99f5309a1c4cfc1d206f9d7",
+				"dweb:/ipfs/Qmc26ZDBABSxskVeqsByLBpQH4vtJC3cVEdkaZXWrr2ibV"
+			]
+		},
+		"Manager.sol": {
+			"keccak256": "0x3775e2968bfa6e2abb82cbfd0994a2c7b87f808a1a526314a84289cf5ab10561",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://68fa5ba27cecc24c101cabee52bb138e8eec30a20bd1ac99154c20eef1b0b332",
+				"dweb:/ipfs/QmWdEKiPVFjdSCUxV5CbUZdcgru212ad6kswxcRKn4XWTr"
+			]
+		},
+		"Member.sol": {
+			"keccak256": "0x3c3cae186c0d7b6637d2fd6e68e50a4797f3a0340dba05ba05ec8f5ddf394afa",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://f813624b8786111755638a065916b21791b555676d807efbba935ef897d6cbca",
+				"dweb:/ipfs/QmRUwsAjtPHp2ZT7okQ7gnwxSQa7dS4j1vRPDJYiHM5CRt"
+			]
+		}
+	},
+	"version": 1
+}

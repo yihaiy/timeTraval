@@ -1,0 +1,184 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tradeAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "createOrder",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERAnft.sol": "IMarket"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ContractOwner.sol": {
+			"keccak256": "0xe9ac69ab557c1d0d53efd31bd0a74ce53b6bd2045d797de52f0c3d259b471eae",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://71ed6d2fdd132785144efd97ebf2e6e696b92b98b99f5309a1c4cfc1d206f9d7",
+				"dweb:/ipfs/Qmc26ZDBABSxskVeqsByLBpQH4vtJC3cVEdkaZXWrr2ibV"
+			]
+		},
+		"ERAnft.sol": {
+			"keccak256": "0x3f12405803a62e3edbba3fd680745dd0b54b949731c3380c5132cd039717a7f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d6d53dfc1a862a21b9a5e88cf9a774f8aa30a0e18acb217b774cf2841f6db63",
+				"dweb:/ipfs/QmPuiY1U53KwBomn15JMhfmi4TjyH5Ufk9wnrUBJk98Msw"
+			]
+		},
+		"ERC20/IERC20.sol": {
+			"keccak256": "0x6505f34604d0426184fb1a0064ce5ed166b46fbbd8662c3465ad4b2d3813bc7e",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://b82e0d56a16dff2ca7d05ff356a799cb3d986c497859c8055c8c7086c908d487",
+				"dweb:/ipfs/QmP7MnkwhkiAsb92essHfAu8UYUyB2vZUPsHbfT1NcCQqb"
+			]
+		},
+		"ERC721/ERC721.sol": {
+			"keccak256": "0x91c9cefa4216abfc4f7fc592ea7268da821809dedfc3349d102e05820605ec0b",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://226b4a6f3e39e2a7e5eca233e443f0313f410d52de1df5939f5d7a4cd4ba2bfa",
+				"dweb:/ipfs/QmbeiUpLCCJBu3RvQZprx9gZLbNLb9gtNKQPvMMP41bVw5"
+			]
+		},
+		"ERC721/IERC165.sol": {
+			"keccak256": "0x57e4074107962ef05ce6f59527f8b98d6faf329cf1cf9b03491033cad21b544f",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://7127b4d9a4447a3ab70899acbd5098a378bc8a09f9788e8ac6a04b88de364f15",
+				"dweb:/ipfs/QmXUeBGk4TdTcUkipYwqytDfa6qZ41XvxhkxrXndt3cMFM"
+			]
+		},
+		"ERC721/IERC721.sol": {
+			"keccak256": "0x5cbe2dde1c95f910e360676bde68a72f7a1a04c323f17228446091262818f5c1",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://dbd7e56e31423b19dddee221ee0d64caff32ca0def81230c4e7b76c028f28a3a",
+				"dweb:/ipfs/QmcFpzUpmK2UYGrA8zZETWRFYRiV5dNHho94MYFTDYk88M"
+			]
+		},
+		"ERC721/IERC721Metadata.sol": {
+			"keccak256": "0x7bf28af122a24cbed3e77625b20878c72ef6d4b95b478f1b78626e4e8e1f6e0a",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://27e4dd3925a80b34bbd96afa6e07e23db40a1d9bf7b8ed78f8af0f8c8056f998",
+				"dweb:/ipfs/QmWp68jHWnGu9zE87DiCp8uPFs3xQUKSbTmAxBiYcRJYew"
+			]
+		},
+		"ERC721/IERC721TokenReceiver.sol": {
+			"keccak256": "0x04b24c8d85b3c70277e4437485a85d399e71dd920b0d26b74bbb39061a8ec14b",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://2c31734b955af9d18c5bdf51fbb454c9c6858b417f2d448566af882b0d7ab659",
+				"dweb:/ipfs/QmeiyLA5Zgm9vvoWffphesXAYB8z4jW9uQ1jSGVc3c5RkM"
+			]
+		},
+		"ERC721/IERC721TokenReceiverEx.sol": {
+			"keccak256": "0x82e7b4c7ed9aed0e2d77ab80f1612fe11eb2e6dc3e94b8ac2de5be02e52c0930",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://0b4bfea87f02376175cf1fd16930937750865a7dea729230d832b125b3f38b37",
+				"dweb:/ipfs/QmNiygPUBPpQZR1BynLHUR1WJNQqQ63D3TLQRDhHtRo1e7"
+			]
+		},
+		"Manager.sol": {
+			"keccak256": "0x3775e2968bfa6e2abb82cbfd0994a2c7b87f808a1a526314a84289cf5ab10561",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://68fa5ba27cecc24c101cabee52bb138e8eec30a20bd1ac99154c20eef1b0b332",
+				"dweb:/ipfs/QmWdEKiPVFjdSCUxV5CbUZdcgru212ad6kswxcRKn4XWTr"
+			]
+		},
+		"Member.sol": {
+			"keccak256": "0x3c3cae186c0d7b6637d2fd6e68e50a4797f3a0340dba05ba05ec8f5ddf394afa",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://f813624b8786111755638a065916b21791b555676d807efbba935ef897d6cbca",
+				"dweb:/ipfs/QmRUwsAjtPHp2ZT7okQ7gnwxSQa7dS4j1vRPDJYiHM5CRt"
+			]
+		},
+		"lib/Address.sol": {
+			"keccak256": "0x55eac2fe6a2005eccb52c9d1af0baa6b907e69d0c457e52f21422f134f15f319",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e7fd3e221c795251d870588424a56da939bbc2b5e1479f6233c1b007551cfde5",
+				"dweb:/ipfs/QmTSq7LwQDgCm2Jow5tL31nQDGLEThEowVH2DTA2H1z3jT"
+			]
+		},
+		"lib/SafeERC20.sol": {
+			"keccak256": "0xeff79d08e15dfa68ef0912dce0ef44277baad06a3672f9cbd35799ae8662b29a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb55870e570ada712145d07972a59e9c6649ecf46d6cd61c10c11a647adc2785",
+				"dweb:/ipfs/QmXfLYVn6u6sYHni4pV53m55uRQ2joM49LH7YS1RjkJ95W"
+			]
+		},
+		"lib/SafeMath.sol": {
+			"keccak256": "0xba6443516427070e10c22180b9fede5d8741b48e11ad1e294836e6f5f01cd082",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8878e6b713873293afd9da688835430c20e9007370c84fadae081e35b389a9e",
+				"dweb:/ipfs/QmUyG4M5A3zGsPuAMDv9F5nqr7xarSZvmSwJXWrnxNj8Ce"
+			]
+		},
+		"lib/String.sol": {
+			"keccak256": "0x7930e8ab123c7175e04af4e9972d8ef33240f4691af8859fc084bbc148a9d72f",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://b0176fc1941891d2ebd1aa08df4d10771963c90c4d6502ca9fe7c641feba10fe",
+				"dweb:/ipfs/QmP4UtD7xVKm2ZNPVfozLuZTs5RoKEdS8ycMep1cwS8F7M"
+			]
+		},
+		"lib/Util.sol": {
+			"keccak256": "0xf7a13a9462bc7ebe56a54febc7e4e3db5932449a19a3fad9e65451e70713f21f",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://92350822d771ede1f8be05c47e2c13c3d48baefd229e4305af108fbc2bbc3e82",
+				"dweb:/ipfs/QmUquV6GdrRHVModbG8fQ1xNj1jvoNjqyhFytpwEjkoknh"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setReward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"nftStakingReward.sol": "ILockReward"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"nftStakingReward.sol": {
+			"keccak256": "0x1a64c1a5a4d3205ebf0e5846cf93c4cd9490310da980c4f78240109acbe71175",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4db8f7e9c585fba4a5d4f4423c45ed76b074dfc45de36ed1ac75bf823decb67d",
+				"dweb:/ipfs/QmcSke7f62XvEomVdsd9figBwFrF9Kcd6LxkUcJbYyvamL"
+			]
+		}
+	},
+	"version": 1
+}

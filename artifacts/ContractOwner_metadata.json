@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contractOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ContractOwner.sol": "ContractOwner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ContractOwner.sol": {
+			"keccak256": "0xe9ac69ab557c1d0d53efd31bd0a74ce53b6bd2045d797de52f0c3d259b471eae",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://71ed6d2fdd132785144efd97ebf2e6e696b92b98b99f5309a1c4cfc1d206f9d7",
+				"dweb:/ipfs/Qmc26ZDBABSxskVeqsByLBpQH4vtJC3cVEdkaZXWrr2ibV"
+			]
+		}
+	},
+	"version": 1
+}

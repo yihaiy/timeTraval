@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contractOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "member",
+						"type": "address"
+					}
+				],
+				"name": "setMember",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "permit",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "enable",
+						"type": "bool"
+					}
+				],
+				"name": "setUserPermit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "userPermits",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Manager.sol": "Manager"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ContractOwner.sol": {
+			"keccak256": "0xe9ac69ab557c1d0d53efd31bd0a74ce53b6bd2045d797de52f0c3d259b471eae",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://71ed6d2fdd132785144efd97ebf2e6e696b92b98b99f5309a1c4cfc1d206f9d7",
+				"dweb:/ipfs/Qmc26ZDBABSxskVeqsByLBpQH4vtJC3cVEdkaZXWrr2ibV"
+			]
+		},
+		"Manager.sol": {
+			"keccak256": "0x3775e2968bfa6e2abb82cbfd0994a2c7b87f808a1a526314a84289cf5ab10561",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://68fa5ba27cecc24c101cabee52bb138e8eec30a20bd1ac99154c20eef1b0b332",
+				"dweb:/ipfs/QmWdEKiPVFjdSCUxV5CbUZdcgru212ad6kswxcRKn4XWTr"
+			]
+		}
+	},
+	"version": 1
+}

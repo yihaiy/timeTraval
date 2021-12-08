@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "tokenIds",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721ExReceived",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"onERC721Received(address,address,uint256,bytes)": {
+					"details": "The ERC721 smart contract calls this function on the recipient  after a `transfer`. This function MAY throw to revert and reject the  transfer. Return of other than the magic value MUST result in the  transaction being reverted.  Note: the contract address is always the message sender.",
+					"params": {
+						"_data": "Additional data with no specified format",
+						"_from": "The address which previously owned the token",
+						"_operator": "The address which called `safeTransferFrom` function",
+						"_tokenId": "The NFT identifier which is being transferred"
+					},
+					"returns": {
+						"_0": "`bytes4(keccak256(\"onERC721Received(address,address,uint256,bytes)\"))`  unless throwing"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"onERC721Received(address,address,uint256,bytes)": {
+					"notice": "Handle the receipt of an NFT"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC721/IERC721TokenReceiverEx.sol": "IERC721TokenReceiverEx"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC721/IERC721TokenReceiver.sol": {
+			"keccak256": "0x04b24c8d85b3c70277e4437485a85d399e71dd920b0d26b74bbb39061a8ec14b",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://2c31734b955af9d18c5bdf51fbb454c9c6858b417f2d448566af882b0d7ab659",
+				"dweb:/ipfs/QmeiyLA5Zgm9vvoWffphesXAYB8z4jW9uQ1jSGVc3c5RkM"
+			]
+		},
+		"ERC721/IERC721TokenReceiverEx.sol": {
+			"keccak256": "0x82e7b4c7ed9aed0e2d77ab80f1612fe11eb2e6dc3e94b8ac2de5be02e52c0930",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://0b4bfea87f02376175cf1fd16930937750865a7dea729230d832b125b3f38b37",
+				"dweb:/ipfs/QmNiygPUBPpQZR1BynLHUR1WJNQqQ63D3TLQRDhHtRo1e7"
+			]
+		}
+	},
+	"version": 1
+}
